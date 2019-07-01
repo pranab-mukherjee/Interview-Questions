@@ -6,7 +6,7 @@
 
 ### 1. What are the Building blocks of Angular?
 
-Answer: 
+**Answer:**
 1. Modules: An angular module is set of angular basic building blocks like component, directives, services etc. 
    An application is divided into logical pieces and each piece of code is called as "module" which perform a single task.
 2. Component: These are the basic building blocks of angular application to control HTML views.
