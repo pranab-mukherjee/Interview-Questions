@@ -134,6 +134,7 @@ cd my-first-project
 ng serve
 ng generate <filename>
 
+--------------------
 
 ## ReactJs:
 
@@ -150,7 +151,7 @@ JSX is a syntax extension to JavaScript and comes with the full power of JavaScr
 JSX produces React “elements”. You can embed any JavaScript expression in JSX by wrapping it in curly braces. 
 After compilation, JSX expressions become regular JavaScript objects.
 
-3. What is the difference between state and props?
+### 3. What is the difference between state and props?
 
 Answer:
 The state is a data structure that starts with a default value when a Component mounts. It may be mutated across time, mostly as a result of user events.
@@ -250,6 +251,8 @@ Answer:
 Refs is the short hand for References in React. It is an attribute which helps to store a reference to a particular 
 React element or component, which will be returned by the components render configuration function. 
 It is used to return references to a particular element or component returned by render(). 
+
+-------------------------
 
 ## BackEnd:
 
@@ -363,6 +366,7 @@ This annotation is used on Java classes which directly access the database. The 
 @EnableAutoConfiguration
 This annotation is usually placed on the main application class. The @EnableAutoConfiguration annotation implicitly defines a base “search package”. This annotation tells Spring Boot to start adding beans based on classpath settings, other beans, and various property settings.
 
+-----------------
 
 ## Core Java:
 
