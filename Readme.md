@@ -1,6 +1,7 @@
 # Interview Questions for FSD: 
-
+-------------------
 ## FrontEnd:
+-------------------
 
 ## Angular:
 
