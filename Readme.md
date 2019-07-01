@@ -1,10 +1,10 @@
-Interview Questions for FSD: 
+# Interview Questions for FSD: 
 
-FrontEnd:
+## FrontEnd:
 
-Angular:
--------
-1. What are the Building blocks of Angular?
+## Angular:
+
+### 1. What are the Building blocks of Angular?
 
 Answer: 
 1. Modules: An angular module is set of angular basic building blocks like component, directives, services etc. 
