@@ -462,3 +462,194 @@ Finalize method get called when object is being collected by Garbage Collector. 
 final : Final is a keyword which is used with class to avoid being extended, with instance variable so they can not reassigned, with methods so that they can not be overridden.
 finally : Finally is a keyword used with try, catch and finally blocks. Finally block executes even if there is an exception. It is generally used to do some clean up work.
 finalize :  Finalize is a method is used to invoke garbage collection for clean up unreachable object.
+
+
+## Go-Lang:
+
+### What is the role of Init function in Go?
+### Difference between GoRoutines & Channels?
+### How do you create a pointer in Go?
+### WHat is difference in Array and Slices in Go? 
+### How to create a channel in Go?
+### What does the Range keyword does in GO?
+### How do you handle exceptions in GO? — Not Possible
+### What is Static type and Dynamic type declaration in GO?
+### What is the usage of GOTO statement in GO?
+### How do you implement Type Inheritance in Go? — Not Possible
+### How do you implement method Overloading in Go? — Not Possible
+### What is the use of GO ROOT varibale in GO?
+### Explain Structures in GO?
+### What is the use of SELECT statement in GO?
+### What are buffered and unbuffered channels in GO?
+### Why do we use RUNE datatype in GO?
+### Why Maps don’t allow slices as keys in GO?
+### Why do we use reflectioon in GO?
+
+### How do you iterate through a map of strings to integers?
+m := map[string]int{ 
+    "apple":  5, 
+    "banana": 3, 
+    "orange": 2, 
+}
+
+Link to Install GO Lang in VS CODE:  https://go.dev/doc/install
+
+### Coding Question:
+Create GO Lang function to consume a webservice where you will pass the value postId=1 as query parameter into the below mentioned URL
+https://jsonplaceholder.typicode.com/comments
+And once you get the response iterate through the response and add the id and name from the response in map and print it.
+
+Free Online Web-Service - https://pokeapi.co/api/v2/pokedex/kanto
+Free Online Web-Service - https://api.sunrise-sunset.org/json?lat=36.7201600&lng=-4.4203400
+Free Online Web-Service -  https://jsonplaceholder.typicode.com
+
+## C#:
+
+### What are Jagged Arrays?
+### What is YIELD method in multithreading in C#?
+### Give one line code to serialize and deserialize an object?
+### Explain a microservice architecture?
+### What is difference between  Partial Class & Sealed Class?
+### What is the difference between Method Overloading and Method Overriding?
+### Why do we use protected internal modifier?
+### Difference between String Buffer and String Builder?
+### What is circular reference?
+### What are indexers in C#?
+### What is singleton design pattern in C#?
+### What is multicasting delegate in C#?
+### What is abstraction in C#?
+### What is a virtual method in C#?
+### Explain Lambda expression with example?
+### How does a map works internally, Explain?
+### What is the difference between runtime and compiletime polymorphism in C#?
+### What is difference between throw and throws keywords in C#?
+### Difference between equality operator (==) and Equals method?
+### What is Object Pooling?
+### What is synchronization in Multithreading?
+
+## .NET:
+
+### How does .NET framework works internally?
+### What is the difference between EXE’s and DLL’s?
+### What is JIT in .NET?
+### Difference between ValueType and ReferenceType?
+### What is difference between Managed & Unmanaged code?
+### What is microsoft Intermediate Language?
+### What is an assembly?
+### What are the events in Page Lifecycle?
+### How to call Garbage Collection exoplicitly?
+### What is fragment caching?
+### What is cross page posting and through which property do you achive it?
+### What is a delegate in .NET?
+### What is boxing and unboxing in .NET?
+### What is the use of Manifest in .NET?
+### What is difference between Session coolie & Persistent cookie?
+### What is Code Access Security in .NET?
+### What is Roslyn in .NET?
+### What is LINQ (Language Integrated Query)? What’s it’s use?
+### What is difference between MDI (Multiple Document Interface) and SDI (System Document Interface)?
+### What is delegates?
+
+
+### Coding Question:  https://dotnetfiddle.net/   (Use Compiler .NET8)
+
+Create a class in C#/.NET which will call a webservice and print the response in proper JSON format 
+
+You have pass these query parametrs in the base url - https://api.sunrise-sunset.org/json
+
+ lat : 36.7201600
+ lng : -4.4203400 
+
+
+## React JS:
+
+### What is the difference Angular and React JS?
+### Difference between Redux and UseState?
+### Why is useRef hook used for?
+### What is Promise?
+### What are the different coponents of redux?
+### What is lifecycle methods of components?
+### How do you call a webservice in Rect? What method do you use? Write one line code for it
+### How to pass some value from child to parent component?
+### How to navigate from one component to another component?
+### How to add a condition inside a return statement inside HTML block?
+### How can I navigate from one component to another coponent and pass value along with it?
+### Name 5 different React hooks and explain in 1 liner
+### What are High Order Component in React?
+### Difference between Stateless and Stateful Components?
+### Difference between react routing and conventional routing?
+### We have the below mentioned block of code where pilotStore value is set to false while initialisation, Later on button click we are setting the value to true (Setting PilotStore=true takes time). How can we handle  the situation where handleOk() method is not executed before setting pilotStore == true?
+const [pilotStore, setPilotStore] = useState(false);
+
+<Button onClick={( e => {
+setPilotStore(true);
+handleOk();
+})} />
+
+handleOK() {
+   if(pilotStore == true){
+      console.log("pilotStore", pilotStore);
+   }
+}
+
+### Coding Question:  https://nextleap.app/online-compiler/reactjs-programming
+
+Create a Webpage where there will be a dropdown which will have all the rejectReason to select
+And there will be a button, onClick of the button the rejectionReason and rejectionReasonCd will be displayed on the Screen
+
+{
+    "data": {
+        "getRejectReasonList": [
+            {
+                "rejectionReason": "RejectReason_1",
+                "rejectionReasonCd": 101
+            },
+            {
+                "rejectionReason": "RejectReason_2",
+                "rejectionReasonCd": 102
+            },
+            {
+                "rejectionReason": "RejectReason_3",
+                "rejectionReasonCd": 103
+            }
+        ]
+    }
+}
+
+## Python:
+
+### What is PEP 8?
+### What is pickling and unpickling in Python?
+### How does memory managed in Python?
+### What is the difference between list and tuple and Dictionary?
+### Explain slicing in Python?
+### What is the difference between XRANGE and RANGE in Python?
+### What-are-the-principal-differences-between-lambda-and-def?
+### Is String mutable or immutable in Python? Explain?
+### What is GIL(Global Interpreter Lock) in Python?
+### What are Python Generators?
+### What are closures in Python?
+### What are decorators in Python? Give an example?
+### What is the syntax of generator expression in Python?
+### Why do we use zip function in Python?
+### What does a SELF keyword does in Python?
+### What is the purpose of DOCSTRING in Python?
+### What is the command to debug a Python Program from terminal?
+### What does a YIELD keyword does in Python?
+### How to convert a ArrayList to String in Python?
+### How to create multi Threading in Python?
+
+
+### How to Install Python 3 in VS Code:
+
+https://code.visualstudio.com/docs/python/python-tutorial
+https://code.visualstudio.com/docs/python/python-quick-start
+
+
+### Coding Question:  
+
+Create a function in Python which will call a webservice and print the response in proper JSON format 
+You have pass these query parametrs in the base url - https://api.sunrise-sunset.org/json
+
+ lat : 36.7201600
+ lng : -4.4203400 
